@@ -1,27 +1,9 @@
 # AngularHttp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
+Esse é um projeto de estudos de front-end e foi gerado com [Angular CLI](https://github.com/angular/angular-cli) na versão 11.2.11
 
 ## Development server
+Após baixar o repositório é necessário rodar o comando `npm install` para instalar a aplicação. Para rodar o projeto é preciso rodar o comando `ng serve`. O mesmo será acessado pelo endereço `http://localhost:4200/` no seu navegador. A aplicação será automaticamente recagarregada após cada alteração efetuada no código
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Json web server
+Esse projeto conta com uma base local para exibir os dados na tabela.
+Inicialmente será preciso instalar o json web server localmente `npm install -D json-server`, após isso você poderá subir o servidor JSON através do comando `json-server --watch src/assets/data/db.json`, no caso está sendo utilizado o arquivo .json que está armazenado em src -> assets -> data -> arquivo.json, mas você pode inserir o seu .json em qualquer diretório
